@@ -1,6 +1,13 @@
-
-	<style> body{background-color: LemonChiffon;
+body{
+	background-color: LemonChiffon;
 }
-	footer{color: white; font-size: 3em;}
-	header,footer{background-color: RebeccaPurple;}
-	 </style>
+.big{
+font-size: 3em;
+}
+#tiny{
+	font-size:0.5em;
+
+}
+header{
+	border: 5px black solid;
+}

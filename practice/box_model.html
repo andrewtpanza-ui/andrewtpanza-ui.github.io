@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Box model</title>
+		<script src="../validate.js"></script>
+	<style>
+		#red{
+			border: 2px black solid;
+			width:100px;
+			background-color:red;
+			height:100px;
+			margin-left:300px;	
+			background-clip:content-box;	
+	}
+		#blue{
+			border: 2px black solid;
+			width:100px;
+			background-color:blue;
+			margin-left:400px;
+			padding:100px;
+			background-clip:content-box;
+			height:100px;
+		}
+		#green{
+			border: 2px black solid;
+			width:100px;
+			background-color:green;
+			margin-left:50px;
+			padding-left:20px;
+			background-clip:content-box;
+			height:100px;
+		}
+		#yellow{
+			border: 2px black solid;
+			width:100px;
+			height:100px;
+			background-color:yellow;
+			margin-left:300px;
+			padding-top:20px;
+			padding-left:10px;
+			padding-right:10px;
+			background-clip:content-box;
+		}
+		#purple{
+			border: 2px black solid;
+			width:100px;
+			height:100px;
+			margin-left:190px;
+			background-color:purple;
+			padding-bottom:100px;
+			background-clip:content-box;
+		}
+	</style>	
+	</head>
+	<body>
+	
+	<h1>Here are the boxes</h1>
+	<div id="red"></div>
+	<div id="blue"></div>
+	<div id="green"></div>
+	<div id="yellow"></div>
+	<div id="purple"></div>
+	</body>
+</html>
