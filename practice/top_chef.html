@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Page</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: system-ui, sans-serif; max-width: 900px; margin: 0 auto; }
+    img { display: block; width: 100%; background: #ddd; }
+    h1 { font-size: 2rem; margin-bottom: 0.5rem; }
+    h2 { font-size: 1.5rem; margin-bottom: 0.5rem; }
+    p { color: black; line-height: 1.6; margin-bottom: 0.5rem; }
+    button { padding: 0.5rem 1.5rem; border: none; border-radius: 5px; background: #333; color: #fff; cursor: pointer; }
+    nav { display: flex; gap: 1rem; }
+    nav a { text-decoration: none; color: inherit; }
+    article { border: 1px solid #ddd; border-radius: 8px; overflow: hidden; }
+    /* Layout */
+    .c1 {
+	background-color: DeepPink;
+      padding: 1rem;
+    }
+    .c2 {
+      padding: 1rem;
+	background-color: #006994;
+    }
+    .c3 {
+      aspect-ratio: 8 / 3;
+    }
+    .c4 {
+      padding: 2rem;
+    }
+    .c5 {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 1rem;
+      padding: 2rem;
+    }
+    .c6 {
+      padding: 0.5rem;
+    }
+    .c7 {
+      width: 65%;
+      aspect-ratio: 4 / 3;
+    }
+    .c8 {
+      padding: 0.5rem;
+    }
+    .c9 {
+      width: 65%;
+      aspect-ratio: 4 / 3;
+    }
+    .c10 {
+      padding: 0.5rem;
+    }
+    .c11 {
+      width: 65%;
+      aspect-ratio: 4 / 3;
+    }
+    .c12 {
+	background-color: AliceBlue;
+      padding: 0.5rem;
+    }
+    .c13 {
+      padding: 2rem;
+    }
+    .c14 {
+      text-align: center;
+    }
+    .c15 {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+<header class="c1">
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Work</a>
+    <a href="#">Contact</a>
+  </nav>
+</header>
+<main class="c2">
+  <section>
+    <img src="placeholder.jpg" alt="" class="c3">
+    <div class="c4">
+      <h1>T-Rex Tacos &#129430;</h1>
+      <p>This restaurant is called T-Rex Tacos located on the beachfront. We offer authentic mexican cuisine focused on our familial taco recipes. We provide affordable food, and all while you can enjoy the fresh views and ocean. Click Below for the precise adress of our trucj</p>
+      <button>Location Here</button>
+    </div>
+  </section>
+  <h2>Popular Items</h2>
+  <section class="c5">
+    <article class="c6">
+      <img src="placeholder.jpg" alt="" class="c7">
+      <h2>Carne Asada</h2>
+      <p>These Carne Asada tacos have been our best seller for 15 years and is a go-to for first time customers. If you want simplicity and maximum flavour, go with our signature Carne Asada.</p>
+    </article>
+    <article class="c8">
+      <img src="placeholder.jpg" alt="" class="c9">
+      <h2>Fresh Caught Taco</h2>
+      <p>If you want to start to get creative and dip your toes in the water, our fresh, locally caught white fish tacos with signature flavor packed sauce. If you want to explore a creative flavor, try our classic Fish Tacos.</p>
+    </article>
+    <article class="c10">
+      <img src="placeholder.jpg" alt="" class="c11">
+      <h2>The T-Rex Taco</h2>
+      <p>Our 3rd best selling item, a staple for many years is the named T-Rex Taco, while there aren't any real dinosaurs we put 6 diffferent animal meats in there to maximize protein and flavor. When you eat this taco you will feel like an ancient T-Rex</p>
+    </article>
+  </section>
+</main>
+<footer class="c12">
+  <section class="c13">
+    <h2 class="c14">Section Heading</h2>
+    <p class="c15">If none of our classics spark your fancy no worries, we have over 20 other options in our full menu, attached below.</p>
+    <button>Full Menu below</button>
+  </section>
+</footer>
+  <script>
+  (function() {
+    var s = document.createElement("script");
+    s.src = "https://cdn.jsdelivr.net/gh/gracehoppercenter/validate@1.0.5/validate.js";
+    s.async = false;
+    document.head.appendChild(s);
+  })();
+  </script>
+</body>
+</html>
