@@ -5,3 +5,24 @@
 
   All of your CSS goes in this file.
 */
+body{
+	background-color:LemonChiffon;
+}
+#utility-nav ul {
+	list-style-type:none;
+	display:flex;
+	justify-content:space-between;
+}
+#utility-nav ul a {
+	text-decoration: none;
+	background-color:#00D3F7;
+	padding: 10px 20px;
+	border: 2px black solid;
+	border-radius: 5px;
+	color:black;
+}
+#utility-nav ul a:hover{
+	background-color:#2A9FB5;
+	cursor:pointer;
+}
+
